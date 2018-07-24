@@ -1,0 +1,21 @@
+@import "../../../assets/sass/colors";
+
+.flag-icon {
+    max-height: .825rem;
+}
+.nav-item {
+    &:hover {
+        cursor: pointer;
+        background: $color-red;
+        .nav-link {
+            color: $color-white;
+        }
+    }
+}
+.nav-link {
+    color: $color-dark;
+}
+.navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.1);
+}
