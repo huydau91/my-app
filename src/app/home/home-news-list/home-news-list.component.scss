@@ -1,0 +1,19 @@
+@import "../../../assets/sass/variables";
+.home-news-list {
+    background-color: $color-white;
+    .event-info {
+        .title {
+            font-weight: 500;
+        }
+    }
+    .recruitment-news, .consultant-investment {
+        .item {
+            a {
+                color: $color-dark;
+                &:hover {
+                    color: $color-red;
+                }
+            }
+        }
+    }
+}

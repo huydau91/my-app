@@ -1,7 +1,7 @@
-@import "../../../assets/sass/colors";
+@import "../../../assets/sass/variables";
 
 .footer {
-    background-color: #555555;
+    background-color: $color-bg-footer;
     .footer-header {
         color: $color-white;
         .text-no-underline {

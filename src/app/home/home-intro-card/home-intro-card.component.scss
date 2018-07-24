@@ -1,0 +1,45 @@
+@import "../../../assets/sass/variables";
+
+.home-intro-card {
+    color: $color-white;
+    .intro-cover-image {
+        background-color: $color-white;
+        .button-group {
+            .item {
+                &:hover {
+                    color: $color-dark;
+                    background-color: $color-white;
+                }
+            }
+        }
+    }
+    .intro-content {
+        .button-group {
+            .item {
+                &:hover {
+                    border: 1px solid $color-white;
+                    background-color: $color-white;
+                }
+            }
+        }
+    }
+    .fa-angle-right {
+        height: 1rem;
+        width: .9375rem;
+        border: 1px solid $color-white;
+        border-radius: 50%;
+    }
+
+    .bg-blue-sky {
+        background-color: $color-blue-sky-home-intro-card;
+    }
+    .bg-blue {
+        background-color: $color-blue-home-intro-card;
+    }
+}
+
+@media screen and (min-width: 1140px) {
+    .intro-cover-image {
+        background-image: url('../../../assets/img/home-intro-card/bg-img-cover.jpg');
+    }
+}
